@@ -21,6 +21,15 @@
         <link rel="stylesheet" href="new/css/responsive.css">
 
   <script src="js/bootstrap.min.js"  type="text/javascript"></script>
+	<style>
+   .bg1 { 
+        background-image: url(image/bg.jpg);
+	background-size: cover;
+	background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+   }
+</style>
 
 <?php if(@$_GET['w'])
 {echo'<script>alert("'.@$_GET['w'].'");</script>';}
