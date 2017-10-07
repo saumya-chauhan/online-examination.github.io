@@ -4,6 +4,13 @@
 	 http://css-tricks.com
 */
 
+.bg1 { 
+        background-image: url(image/bg.jpg);
+	background-size: cover;
+	background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+   }
 * { margin: 0; padding: 0; }
 body { font: 14px Georgia, serif; }
 
